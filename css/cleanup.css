@@ -1,1 +1,36 @@
 /* write your override styles here */
+/* Remove tag-1 */
+#wall .tag-1 {
+    display: none;
+  }
+  
+  /* Remove tag-2 */
+  #wall #tag-2 {
+    display: none;
+  }
+  
+  /* Remove tag-3 (has two classes: slick, wicked) */
+  #wall #tag-3.wicked.slick {
+    display: none;
+  }
+  
+  /* Remove tag-4 (inside .parent) */
+  #wall .parent #tag-4 {
+    display: none;
+  }
+  
+  /* Remove tag-5 (inside .parent, has class slick) */
+  #wall .parent #tag-5.slick {
+    display: none;
+  }
+  
+  /* Remove tag-6 (deeply nested inside two divs within .parent) */
+  #wall .parent div div #tag-6 {
+    display: none;
+  }
+  
+  /* Remove tag-7 (deeply nested and has class slick) */
+  #wall .parent div #tag-7.slick {
+    display: none;
+  }
+  
